@@ -41,7 +41,7 @@ const checkPrimeNumber = (number) => {
     }    
   }
 
-  return !!(number > 1);
+  return number > 1;
 }
 
 const getFirstFiftyPrimeNumbers = () => {
