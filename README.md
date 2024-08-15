@@ -24,6 +24,17 @@ Puedes ejecutar este algoritmo llamando a la función `checkBingo(start, end)`, 
 ```json
 console.log(checkBingo(1, 100));
 ```
+```json
+Array(100) [
+  1, 2, 'Bin', 4, 'Go', 'Bin', 7, 8, 'Bin', 'Go', 11, 'Bin', 13, 14, 'Bingo', 16,
+  17, 'Bin', 19, 'Go', 'Bin', 22, 23, 'Bin', 'Go', 26, 'Bin', 28, 29, 'Bingo', 31,
+  32, 'Bin', 34, 'Go', 'Bin', 37, 38, 'Bin', 'Go', 41, 'Bin', 43, 44, 'Bingo', 46,
+  47, 'Bin', 49, 'Go', 'Bin', 52, 53, 'Bin', 'Go', 56, 'Bin', 58, 59, 'Bingo', 61,
+  62, 'Bin', 64, 'Go', 'Bin', 67, 68, 'Bin', 'Go', 71, 'Bin', 73, 74, 'Bingo', 76,
+  77, 'Bin', 79, 'Go', 'Bin', 82, 83, 'Bin', 'Go', 86, 'Bin', 88, 89, 'Bingo', 91,
+  92, 'Bin', 94, 'Go', 'Bin', 97, 98, 'Bin', 'Go'
+]
+```
 
 ## Cálculo de Números Primos
 
@@ -37,6 +48,14 @@ La función getFirstFiftyPrimeNumbers() retorna un array con los primeros 50 nú
   console.log(getFirstFiftyPrimeNumbers());
 ```
 
+```json
+Array(50) [
+  2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73,
+  79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163,
+  167, 173, 179, 181, 191, 193, 197, 199, 211, 223, 227, 229
+]
+```
+
 ## Inversión de Palabras en una Cadena
 
 Este algoritmo toma una cadena de texto compuesta por palabras separadas por espacios y devuelve la cadena con las palabras en orden inverso.
@@ -47,6 +66,10 @@ La función reverseWord(text) recibe un string y devuelve el string con las pala
 
 ```json
 console.log(reverseWord('Este es un mensaje de prueba'));
+```
+
+```json
+'prueba de mensaje un es Este'
 ```
 
 ## Nota
