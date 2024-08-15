@@ -21,10 +21,11 @@ Este algoritmo imprime los números del 1 al 100, con las siguientes consideraci
 
 Puedes ejecutar este algoritmo llamando a la función `checkBingo(start, end)`, donde `start` y `end` son los números que definen el rango a evaluar. En el ejemplo incluido, se utiliza el rango del 1 al 100.
 
-```json
+```javascript
 console.log(checkBingo(1, 100));
 ```
-```json
+
+```javascript
 Array(100) [
   1, 2, 'Bin', 4, 'Go', 'Bin', 7, 8, 'Bin', 'Go', 11, 'Bin', 13, 14, 'Bingo', 16,
   17, 'Bin', 19, 'Go', 'Bin', 22, 23, 'Bin', 'Go', 26, 'Bin', 28, 29, 'Bingo', 31,
@@ -44,11 +45,11 @@ Este algoritmo calcula e imprime los primeros 50 números primos.
 
 La función getFirstFiftyPrimeNumbers() retorna un array con los primeros 50 números primos.
 
-```json
+```javascript
   console.log(getFirstFiftyPrimeNumbers());
 ```
 
-```json
+```javascript
 Array(50) [
   2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73,
   79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163,
@@ -64,11 +65,11 @@ Este algoritmo toma una cadena de texto compuesta por palabras separadas por esp
 
 La función reverseWord(text) recibe un string y devuelve el string con las palabras invertidas.
 
-```json
+```javascript
 console.log(reverseWord('Este es un mensaje de prueba'));
 ```
 
-```json
+```javascript
 'prueba de mensaje un es Este'
 ```
 
